@@ -62,4 +62,4 @@ def edit_task(request, pk):
 
         return redirect('home')
 
-    return render(request, 'edit.html', {'task': task})
+    return render(request, 'edit_task.html', {'task': task})
